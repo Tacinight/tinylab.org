@@ -47,11 +47,11 @@ categories:
 
 再次提醒，在 Linux 或者 Mac 系统，可以随便在 `~/Downloads` 或者 `~/Documents` 下找一处工作目录，然后进入，比如：
 
-   $ cd ~/Documents
+    $ cd ~/Documents
 
 但是如果使用的是 Docker Toolbox 安装的 `default` 系统，该系统默认的工作目录为 `/root`，它仅仅挂载在内存中，因此在关闭系统后所有数据会丢失，所以需要换一处上面提到的 `/mnt/sda1`，它是外挂的一个磁盘镜像，关闭系统后数据会持续保存。
 
-   $ cd /mnt/sda1
+    $ cd /mnt/sda1
 
 ## 拉下 Linux 0.11 实验环境
 
@@ -78,7 +78,7 @@ categories:
 登录后，无须再额外安装任何工具，因为刚才在构建 Docker 容器时就已经默认安装好。所以用法与 [五分钟内搭建 Linux 0.11 的实验环境][2] 稍有差异。基本步骤如下：
 
   * 登录后，通过左下角的启动菜单，找到 `Accessories`，再打开控制台 `LXTerminal`
-  * 进入实验环境所属目录：`cd /linux-0.11-lab`
+  * 进入实验环境所属目录：`cd /labs/linux-0.11-lab`
   * 进行各种开发与调试动作
       * 例如：`make start-hd`
       * 也可切换 bochs 启动，例如：`make switch; make start-fd`

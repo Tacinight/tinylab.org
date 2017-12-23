@@ -2,7 +2,7 @@
 layout: post
 author: 'Wang Chen'
 title: "LWN 215996: 设备资源管理"
-album: lwn
+album: 'LWN 中文翻译'
 group: translation
 permalink: /lwn-215996-device-resource-management/
 description: "LWN 文章翻译，设备资源管理"
@@ -18,6 +18,7 @@ tags:
 > 原文：[Device resource management](https://lwn.net/Articles/215996/)
 > 原创：By Jonathan Corbet @ January 2, 2007
 > 翻译：By Unicornx of [TinyLab.org][1] @ Oct 19, 2017
+> 校对：By Falcon of [TinyLab.org][1]
 
 > Writing device drivers can be a tricky task. Simply getting a piece of hardware to operate as desired - perhaps working from erroneous or nonexistent documentation - can be a frustrating process. Beyond that, however, the driver must allocate several different types of resources for the device; these resources can include I/O memory mappings, interrupt lines, blocks of memory, DMA buffers, registrations with multiple subsystems, etc. All of these allocations must be returned to the system when the device (or its driver) goes away. It is not uncommon for driver writers to forget to deallocate something, leading to resource leaks.
 

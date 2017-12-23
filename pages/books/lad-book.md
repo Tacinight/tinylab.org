@@ -22,9 +22,9 @@ tags:
 
 ## 简介
 
--   代码仓库：<https://github.com/tinyclub/lad-book>
--   在线阅读：<http://tinylab.gitbooks.io/lad-book>
--   项目首页：<http://tinylab.org/lad-book>
+-   [代码仓库](https://github.com/tinyclub/lad-book)
+-   [在线阅读](http://tinylab.gitbooks.io/lad-book)
+-   [项目首页](http://tinylab.org/lad-book)
 
 ## 报名
 
@@ -36,6 +36,8 @@ tags:
 
 要编译本书，请使用 [Markdown Lab](http://tinylab.org/markdown-lab)。
 
+可通过 [泰晓实验云台](http://tinylab.cloud:6080/labs) 在线体验 Markdown Lab。
+
 ## 纠错
 
 如有发现任何疑问，欢迎：
@@ -46,6 +48,14 @@ tags:
 ## 版权
 
 除非另行声明，本书采用 [CC BY-NC-ND 4.0 协议](https://creativecommons.org/licenses/by-nc-nd/4.0/) 发布。
+
+## 赞助
+
+为了更好地推进这次考古行动，期待不能亲自参与的同学能够赞助我们，相关费用将用于设立项目微奖激励更多同学参与 Linux 0.11 的学习和研究并撰写考古笔记。
+
+赞助方式有两种，一种是直接扫描后面的二维码，另外一种是通过 [泰晓服务中心](https://weidian.com/item.html?itemID=2211579775) 进行。
+
+更多高质量的 Linux 考古成果需要您的支持！
 
 ## 更多
 

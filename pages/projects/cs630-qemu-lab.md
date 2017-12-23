@@ -24,10 +24,14 @@ tags:
 
 有了这些脚本，学生就可以很方便地在当前开发主机上实验，从而免去了不必要的重启，也避免了烧坏自己主机的风险。
 
-这里为在线演示地址：
+## 在线演示
 
-* 命令行：<http://showterm.io/547ccaae139df14c3deec>。
-* 视频：<http://showdesk.io/1f06d49dfff081e9b54792436590d9f9/>。
+* [命令行视频](http://showterm.io/547ccaae139df14c3deec)
+* [桌面演示视频](http://showdesk.io/1f06d49dfff081e9b54792436590d9f9/)
+
+## 在线实验
+
+* [泰晓实验云台](http://tinylab.cloud:6080/labs/)
 
 ## 实验代码
 
@@ -78,11 +82,11 @@ tags:
 
 再次提醒，在 Linux 或者 Mac 系统，可以随便在 `~/Downloads` 或者 `~/Documents` 下找一处工作目录，然后进入，比如：
 
-   $ cd ~/Documents
+    $ cd ~/Documents
 
 但是如果使用的是 Docker Toolbox 安装的 `default` 系统，该系统默认的工作目录为 `/root`，它仅仅挂载在内存中，因此在关闭系统后所有数据会丢失，所以需要换一处上面提到的 `/mnt/sda1`，它是外挂的一个磁盘镜像，关闭系统后数据会持续保存。
 
-   $ cd /mnt/sda1
+    $ cd /mnt/sda1
 
 ### 下载
 

@@ -2,7 +2,7 @@
 layout: post
 author: 'Wang Chen'
 title: "LWN 448502: 平台设备和设备树"
-album: lwn
+album: 'LWN 中文翻译'
 group: translation
 permalink: /lwn-448502-platform-devices-and-device-trees/
 description: "LWN 文章翻译，平台设备和设备树"
@@ -18,6 +18,7 @@ tags:
 > 原文：[Platform devices and device trees](https://lwn.net/Articles/448502/)
 > 原创：By Jonathan Corbet @ June 21, 2011
 > 翻译：By Unicornx of [TinyLab.org][1] @ Oct 10, 2017
+> 校对：By Falcon of [TinyLab.org][1]
 
 > The [first part](https://lwn.net/Articles/448499/) of this pair of articles described the kernel's mechanism for dealing with non-discoverable devices: platform devices. The platform device scheme has a long history and is heavily used, but it has some disadvantages, the biggest of which is the need to instantiate these devices in code. There are alternatives coming into play, though; this article will describe how platform devices interact with the device tree mechanism.
 
